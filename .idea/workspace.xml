@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63a4c97d-655c-4a48-9ca0-e6ef4e7d48ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logging_traceback.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FastAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FastAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.logging_traceback">
+  <component name="RunManager" selected="Python.test">
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FastAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,28 +51,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="FastAPI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,6 +81,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FastAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="logging_traceback" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FastAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,12 +125,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FastAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.demo3" />
         <item itemvalue="Python.logging_traceback" />
         <item itemvalue="Python.demo2" />
         <item itemvalue="Python.demo" />
-        <item itemvalue="Python.demo01" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +167,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587728406872</updated>
-      <workItem from="1587728409259" duration="8620000" />
+      <workItem from="1587728409259" duration="9115000" />
+      <workItem from="1587873520719" duration="230000" />
+      <workItem from="1587873821885" duration="3317000" />
     </task>
     <servers />
   </component>
@@ -154,21 +177,25 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1359" height="228" key="GridCell.Tab.0.bottom" timestamp="1587872006404">
-      <screen x="35" y="23" width="1405" height="877" />
+    <state width="1396" height="185" key="GridCell.Tab.0.bottom" timestamp="1587879587813">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1396" height="185" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587879587813" />
     <state width="1359" height="228" key="GridCell.Tab.0.bottom/35.23.1405.877@35.23.1405.877" timestamp="1587872006404" />
-    <state width="1359" height="228" key="GridCell.Tab.0.center" timestamp="1587872006403">
-      <screen x="35" y="23" width="1405" height="877" />
+    <state width="1396" height="185" key="GridCell.Tab.0.center" timestamp="1587879587811">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1396" height="185" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587879587811" />
     <state width="1359" height="228" key="GridCell.Tab.0.center/35.23.1405.877@35.23.1405.877" timestamp="1587872006403" />
-    <state width="1359" height="228" key="GridCell.Tab.0.left" timestamp="1587872006402">
-      <screen x="35" y="23" width="1405" height="877" />
+    <state width="1396" height="185" key="GridCell.Tab.0.left" timestamp="1587879587809">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1396" height="185" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587879587809" />
     <state width="1359" height="228" key="GridCell.Tab.0.left/35.23.1405.877@35.23.1405.877" timestamp="1587872006402" />
-    <state width="1359" height="228" key="GridCell.Tab.0.right" timestamp="1587872006404">
-      <screen x="35" y="23" width="1405" height="877" />
+    <state width="1396" height="185" key="GridCell.Tab.0.right" timestamp="1587879587812">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1396" height="185" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587879587812" />
     <state width="1359" height="228" key="GridCell.Tab.0.right/35.23.1405.877@35.23.1405.877" timestamp="1587872006404" />
     <state x="247" y="67" key="SettingsEditor" timestamp="1587728928646">
       <screen x="37" y="23" width="1403" height="877" />
@@ -177,7 +204,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FastAPI$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1587867667087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FastAPI$test.coverage" NAME="test Coverage Results" MODIFIED="1587879582617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FastAPI$logging_traceback.coverage" NAME="logging_traceback Coverage Results" MODIFIED="1587872006387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FastAPI$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1587879515344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FastAPI$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1587865387681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FastAPI$demo.coverage" NAME="demo Coverage Results" MODIFIED="1587867589030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
